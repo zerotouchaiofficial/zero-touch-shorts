@@ -14,13 +14,13 @@ on:
     # 6:00 PM EST = 23:00 UTC  ← commute peak
     #- cron: '0 23 * * *'
     # 7:00 PM EST = 00:00 UTC
-    #- cron: '0 0 * * *'
+    - cron: '0 0 * * *'
     # 8:00 PM EST = 01:00 UTC  ← prime time peak
-    #- cron: '0 1 * * *'
+    - cron: '0 1 * * *'
     # 9:00 PM EST = 02:00 UTC
-    #- cron: '0 2 * * *'
+    - cron: '0 2 * * *'
     # 10:00 PM EST = 03:00 UTC ← late night
-    #- cron: '0 3 * * *'
+    - cron: '0 3 * * *'
     # 11:00 PM EST = 04:00 UTC
     - cron: '0 4 * * *'
   workflow_dispatch:
